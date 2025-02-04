@@ -1,4 +1,4 @@
-# [Project 1: Coffee company data analysis](insert_link)
+# [Project 1: Coffee company data analysis]([insert_link](https://github.com/JJB249/JohnBolling.github.io))
 
 #### **Project Overview**
 The notebook is focused on analyzing a dataset related to a **coffee company** using Python, with the objective of generating insights to aid **business decision-making**. The analysis includes **sales performance across different quarters, regions, and product segments** to recommend whether certain products should be continued or discontinued.
