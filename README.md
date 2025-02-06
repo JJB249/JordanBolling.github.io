@@ -142,8 +142,7 @@ This project focuses on **segmenting** customers from Ivy League universities ba
 - **Leverage partnerships with companies** like Tiffany & Co. and Decathlon to attract and retain customers in Cluster 1.
 - **Monitor competitors** like Alibaba to maintain a competitive edge in targeting this segment.
 
-![Screenshot 2025-02-06 at 18 57 25](https://github.com/user-attachments/assets/bdf0545d-310e-47e0-aa01-dd0d1b5b18f3)
-
+*You can view all of my projects at: https://github.com/JJB249?tab=repositories*
 
 
 
