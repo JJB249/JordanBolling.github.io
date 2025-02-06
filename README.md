@@ -1,4 +1,4 @@
-# [Project 1: Coffee company data analysis]([insert_link](https://github.com/JJB249/Operations-Analytics-Projects))
+# [Project 1: Transportation Cost Analysis]([insert_link](https://github.com/JJB249/Operations-Analytics-Projects))
 
 #### **Project Overview**
 This project analyses the transportation problem faced by **Exeter Transport Company**, aiming to determine the optimal shipping strategy to **minimise transportation costs**. Various methods are tested, including heuristic approaches and a linear programming (LP) model on Excel, to **compare efficiency and cost-effectiveness**.
@@ -41,6 +41,8 @@ This project analyses the transportation problem faced by **Exeter Transport Com
 - The Least-Cost and Vogel’s methods serve as **good alternatives** when a **quick estimation is required**, as they yielded **near-optimal results**.
 - Although minimising transportation costs is crucial, **sustainability, delivery timelines, and customer satisfaction** should also be **factored** into **decision-making**.
 - Given **fluctuating transportation costs**, **multiple methods** should be considered to **adapt to market changes**.
+
+
 
 
 
