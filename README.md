@@ -93,7 +93,7 @@ This project focuses on analysing **sales revenue trends** using a **simple regr
 
 ![Screenshot 2025-02-06 at 18 47 00](https://github.com/user-attachments/assets/d48d2765-0b4a-4dd0-acff-674df748b7eb)
 
-# [Project 2: Customer Segmentation and Targetting Strategy for JD.com]([insert_link](https://github.com/JJB249/Business-Analytics-Practices))
+# [Project 3: Customer Segmentation and Targetting Strategy for JD.com]([insert_link](https://github.com/JJB249/Marketing-Analytics-Projects))
 
 #### **Project Overview**
 This project focuses on **segmenting** customers from Ivy League universities based on their responses to a survey. The objective is to identify distinct customer **clusters** using **cluster analysis in R** and to interpret the **characteristics** of each cluster to **inform targeted marketing strategies**.
@@ -126,22 +126,23 @@ This project focuses on **segmenting** customers from Ivy League universities ba
 
 - Analysed the **cluster centers** to understand the **mean values** of key variables.
 
-4. **Autoregressive Model & Forecasting:**
-- Applied an AR(1) model to predict future sales revenue.
-- Generated sales forecasts for January & February 2021 using the **forecast package in R**.
+4. **Interpretation & Visualization:**
+- Interpreted the characteristics of each cluster based on **demographic and preference data**.
+- Generated a **CSV file** with the mean values of key variables for each cluster.
 
 #### **Technologies & Tools Used**
-- R (for regression modeling and forecasting)
-- ggplot2 (for visualization)
-- forecast package (for time-series predictions)
+- R (for cluster analysis and visualization)
+- ggplot2 (for cluster visualization)
 - RStudio (for script execution)
-
+  
 #### **Outcome & Business Recommendations**
-- Increase store visits through **marketing campaigns** as they have a strong positive impact on sales revenue.
-- Enhance **social media engagement** to increase awareness and drive customer traffic.
-- **Adjust pricing strategies** to balance affordability and profitability.
-- **Utilise sales forecasts** for better inventory and financial planning.
+- **Target Cluster 1** (Loyal tech-savvy undergraduate students) for marketing campaigns due to their high engagement and loyalty.
+- **Enhance online shopping features** to cater to Cluster 2 (The busy everyday shoppers) who heavily rely on digital platforms.
+- **Develop tailored marketing strategies** for Cluster 3 (The independent, older customers) to increase their engagement and loyalty.
+- **Leverage partnerships with companies** like Tiffany & Co. and Decathlon to attract and retain customers in Cluster 1.
+- **Monitor competitors** like Alibaba to maintain a competitive edge in targeting this segment.
 
+![Screenshot 2025-02-06 at 18 57 25](https://github.com/user-attachments/assets/bdf0545d-310e-47e0-aa01-dd0d1b5b18f3)
 
 
 
