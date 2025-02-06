@@ -42,7 +42,7 @@ This project analyses the transportation problem faced by **Exeter Transport Com
 - Although minimising transportation costs is crucial, **sustainability, delivery timelines, and customer satisfaction** should also be **factored** into **decision-making**.
 - Given **fluctuating transportation costs**, **multiple methods** should be considered to **adapt to market changes**.
 
-# [Project 1: Local Music Store Sales Analysis and Forecasting]([insert_link](https://github.com/JJB249/Business-Analytics-Practices))
+# [Project 2: Local Music Store Sales Analysis and Forecasting]([insert_link](https://github.com/JJB249/Business-Analytics-Practices))
 
 #### **Project Overview**
 This project focuses on analysing **sales revenue trends** using a **simple regression model** and an **autoregressive model in R**. The objective is to determine how different **factors** influence sales revenue and to **forecast future sales** based on past **trends**.
@@ -74,6 +74,57 @@ This project focuses on analysing **sales revenue trends** using a **simple regr
 3. **Regression Analysis:**
 - Built a linear regression model **(Y = β0 + β1X1 + β2X2 + β3X3 + ε)**.
 - Analysed coefficient significance, standard error, and R-squared values.
+
+4. **Autoregressive Model & Forecasting:**
+- Applied an AR(1) model to predict future sales revenue.
+- Generated sales forecasts for January & February 2021 using the **forecast package in R**.
+
+#### **Technologies & Tools Used**
+- R (for regression modeling and forecasting)
+- ggplot2 (for visualization)
+- forecast package (for time-series predictions)
+- RStudio (for script execution)
+
+#### **Outcome & Business Recommendations**
+- Increase store visits through **marketing campaigns** as they have a strong positive impact on sales revenue.
+- Enhance **social media engagement** to increase awareness and drive customer traffic.
+- **Adjust pricing strategies** to balance affordability and profitability.
+- **Utilise sales forecasts** for better inventory and financial planning.
+
+![Screenshot 2025-02-06 at 18 47 00](https://github.com/user-attachments/assets/d48d2765-0b4a-4dd0-acff-674df748b7eb)
+
+# [Project 2: Customer Segmentation and Targetting Strategy for JD.com]([insert_link](https://github.com/JJB249/Business-Analytics-Practices))
+
+#### **Project Overview**
+This project focuses on **segmenting** customers from Ivy League universities based on their responses to a survey. The objective is to identify distinct customer **clusters** using **cluster analysis in R** and to interpret the **characteristics** of each cluster to **inform targeted marketing strategies**.
+
+#### **Key Objectives**
+- Utilise k-means clustering to determine the **optimal number of customer segments**.
+- Analyse the **demographic and preference data** of each cluster.
+- Generate a cluster **dendrogram** to **visualise** the segmentation.
+- Interpret the mean values of key variables for each cluster to understand their **unique characteristics**.
+
+
+#### **Key Findings**
+- The optimal number of clusters identified is **3**, with cluster sizes of 220, 321, and 459 respectively.
+- Cluster 1 **(Loyal tech-savvy undergraduate students)** is characterised by younger, risk-averse customers who value product insurance and return policies.
+- Cluster 2 **(The busy everyday shoppers)** represents average customers with a strong preference for online shopping. 
+- Cluster 3 **(The independent, older customers)** consists of older, less loyal customers who are less concerned with product details.
+- The mean values of key variables such as age, income, and shopping preferences significantly differ across clusters, providing clear distinctions for targeted marketing.
+
+#### **Project Workflow**
+1. **Data Collection & Preparation:**
+- **Gathered** survey data from 1000 customers at Ivy League universities.
+- **Cleaned** and scaled the dataset for cluster analysis.
+
+2. **Exploratory Data Analysis (EDA):**
+- Determined the optimal number of clusters using the **within-cluster sum of squares (WSS) method**.
+- Visualised the cluster separation using a dendrogram.
+
+3. **Cluster Analysis:**
+- Applied **k-means clustering** to segment customers into 3 clusters.
+
+- Analysed the **cluster centers** to understand the **mean values** of key variables.
 
 4. **Autoregressive Model & Forecasting:**
 - Applied an AR(1) model to predict future sales revenue.
