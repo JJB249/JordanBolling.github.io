@@ -1,4 +1,4 @@
-# [Project 1: Coffee company data analysis]([insert_link]([https://github.com/JJB249/JohnBolling.github.io](https://github.com/JJB249/Operations-Analytics-Projects)))
+# [Project 1: Coffee company data analysis]([insert_link]((https://github.com/JJB249/Operations-Analytics-Projects))
 
 #### **Project Overview**
 This project analyses the transportation problem faced by **Exeter Transport Company**, aiming to determine the optimal shipping strategy to **minimise transportation costs**. Various methods are tested, including heuristic approaches and a linear programming (LP) model on Excel, to **compare efficiency and cost-effectiveness**.
