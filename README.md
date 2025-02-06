@@ -1,48 +1,46 @@
-# [Project 1: Coffee company data analysis]([insert_link](https://github.com/JJB249/JohnBolling.github.io))
+# [Project 1: Coffee company data analysis]([insert_link]([https://github.com/JJB249/JohnBolling.github.io](https://github.com/JJB249/Operations-Analytics-Projects)))
 
 #### **Project Overview**
-The notebook is focused on analyzing a dataset related to a **coffee company** using Python, with the objective of generating insights to aid **business decision-making**. The analysis includes **sales performance across different quarters, regions, and product segments** to recommend whether certain products should be continued or discontinued.
+This project analyses the transportation problem faced by **Exeter Transport Company**, aiming to determine the optimal shipping strategy to **minimise transportation costs**. Various methods are tested, including heuristic approaches and a linear programming (LP) model on Excel, to **compare efficiency and cost-effectiveness**.
 
 #### **Key Objectives**
-- Load and preprocess **Coffee_company dataset** using **Pandas**.
-- Perform exploratory data analysis (EDA) to identify key sales trends.
-- Generate insights into **product performance**, **regional sales**, and **segment-based profitability**.
-- Make **data-driven recommendations** for business strategy.
+- Model the transportation problem as a **minimum cost network flow problem**.
+- Visualise supply and demand distribution using a network diagram.
+- Compute basic feasible solutions (BFS) using: Northwest Corner Method, Least-Cost Method, Vogel’s Approximation Method
+- Develop a linear programming model to determine the **minimum transportation cost**.
+- **Compare and evaluate** the different methodologies to find the **most effective approach**.
+
 
 #### **Key Findings**
-- **Total revenue** across all products is **£14.78M**.
-- **Highest sales** were recorded in **Q4 of 2019** with **£4.12M** in total revenue.
-- **France** had the **highest** overall sales, generating **£3.32M**.
-- **Coffee A** was the **best-selling product**, contributing **£4.8M** in revenue.
-- **Coffee B** generated the **lowest revenue**, only **£1.83M** globally.
-- **Government sector sales** were the most profitable, whereas **enterprise segment sales** showed negative revenue.
+- **Northwest Corner Method** resulted in a total transportation cost of **$61,000**.
+- **Least-Cost Method and Vogel’s Approximation Method** both achieved a cost of **$47,500**, significantly **improving efficiency** over the Northwest approach.
+- **Linear Programming (LP) Model** further reduced the transportation cost to **$43,500**, making it the **most optimal solution**.
+- Since the total supply and demand are equal, this is classified as a  **balanced transportation problem**.
 
 #### **Project Workflow**
-1. **Data Preparation:**
-   - Loaded dataset using `pandas`.
-   - Cleaned and formatted column names.
-   - Displayed initial rows for preview.
+1. **Data Visualisation:**
+- Constructed a **Supply-Demand Network Diagram** to illustrate transportation routes and costs.
+- Developed a **Transportation Tableau** to organize unit costs and constraints.
 
-2. **Exploratory Data Analysis (EDA):**
-   - Aggregated **sales figures** by **product, region, and time period**.
-   - Created **quarterly sales trends** to identify seasonal patterns.
-   - Analyzed **revenue contributions by segment** (e.g., Government, Enterprise).
+2. **Computing the Basic Feasible Solution (BFS):**
+- Northwest Corner Method: Allocated supply starting from the top-left cell of the tableau. This method was quick but inefficient, resulting in the highest cost.
+- Least-Cost Method: Prioritized shipments based on the lowest transportation costs, significantly reducing expenses.
+- Vogel’s Approximation Method: Factored in cost penalties to refine allocations, yielding the same result as the Least-Cost Method.
 
-3. **Visualization & Insights:**
-   - Generated **bar charts and line plots** to highlight key sales trends.
-   - Compared **sales performance** between different products and regions.
-   - Evaluated which product lines should be **discontinued or expanded**.
+3. **Mathematical Modelling:**
+- Defined **decision variables**, an **objective function**, and **supply & demand constraints** using a Linear Programming Model.
+- Used **spreadsheet modeling** to solve for the minimum transportation cost.
 
 #### **Technologies & Tools Used**
-- **Python** (Pandas, Matplotlib, Seaborn) for data processing & visualization.
-- **Jupyter Notebook** for interactive analysis.
-- **GitHub Repository** for version control and portfolio presentation.
+- **Spreadsheet Modeling** for tableau representation and BFS computation.
+- **Linear Programming (LP)** for optimizing transportation costs.
+- **Graphical Network Analysis** to illustrate supply-demand relationships.
 
 #### **Outcome & Business Recommendations**
-- **Coffee A should be expanded** due to its strong sales performance.
-- **Coffee B should be reconsidered** or **discontinued** due to poor revenue generation.
-- The **Enterprise segment needs strategic intervention** due to **negative revenue trends**.
-- **Seasonal trends should guide marketing efforts**, focusing on Q4 for maximizing sales.
+- The LP model provides the **most cost-effective solution*8 and **should be prioritised**.
+- The Least-Cost and Vogel’s methods serve as **good alternatives** when a **quick estimation is required**, as they yielded **near-optimal results**.
+- Although minimising transportation costs is crucial, **sustainability, delivery timelines, and customer satisfaction** should also be **factored** into **decision-making**.
+- Given **fluctuating transportation costs**, **multiple methods** should be considered to **adapt to market changes**.
 
 
 
