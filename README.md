@@ -42,6 +42,55 @@ This project analyses the transportation problem faced by **Exeter Transport Com
 - Although minimising transportation costs is crucial, **sustainability, delivery timelines, and customer satisfaction** should also be **factored** into **decision-making**.
 - Given **fluctuating transportation costs**, **multiple methods** should be considered to **adapt to market changes**.
 
+# [Project 1: Local Music Store Sales Analysis and Forecasting]([insert_link](https://github.com/JJB249/Business-Analytics-Practices))
+
+#### **Project Overview**
+This project focuses on analysing **sales revenue trends** using a **simple regression model** and an **autoregressive model in R**. The objective is to determine how different **factors** influence sales revenue and to **forecast future sales** based on past **trends**.
+
+#### **Key Objectives**
+- Utilise a linear regression model to analyse the relationship between **sales revenue** and **independent variables**.
+- Evaluate the **correlation** between store visits, social media shares, and average price per unit with sales revenue.
+- Apply an **autoregressive (AR) model** to forecast future sales revenue.
+- Interpret **key statistical measures** such as R-squared, standard error, and correlation coefficients.
+
+
+#### **Key Findings**
+- A **strong positive correlation** (0.92) exists between store visits and sales revenue.
+- The linear regression model produced an **R-squared value** of 0.85, indicating that 85% of the variance in sales revenue is explained by the model.
+- The **adjusted R-squared value** (0.83) further confirms the model's robustness.
+- The **standard error of the coefficient** for store visits is 0.208, indicating a reliable estimation.
+- The autoregressive model **predicts sales revenue** to be $19,173.81K in January 2021 and $19,277.65K in February 2021.
+
+
+#### **Project Workflow**
+1. **Data Collection & Preparation:**
+- **Gathered** monthly sales revenue and independent variable data.
+- **Cleaned** and structured the dataset for regression analysis.
+
+2. **Exploratory Data Analysis (EDA):**
+- **Plotted** scatter plots to **visualise** the relationship between store visits and sales revenue.
+- Calculated correlation coefficients to measure **variable relationships**.
+
+3. **Regression Analysis:**
+- Built a linear regression model **(Y = β0 + β1X1 + β2X2 + β3X3 + ε)**.
+- Analysed coefficient significance, standard error, and R-squared values.
+
+4. **Autoregressive Model & Forecasting:**
+- Applied an AR(1) model to predict future sales revenue.
+- Generated sales forecasts for January & February 2021 using the **forecast package in R**.
+
+#### **Technologies & Tools Used**
+- R (for regression modeling and forecasting)
+- ggplot2 (for visualization)
+- forecast package (for time-series predictions)
+- RStudio (for script execution)
+
+#### **Outcome & Business Recommendations**
+- Increase store visits through **marketing campaigns** as they have a strong positive impact on sales revenue.
+- Enhance **social media engagement** to increase awareness and drive customer traffic.
+- **Adjust pricing strategies** to balance affordability and profitability.
+- **Utilise sales forecasts** for better inventory and financial planning.
+
 
 
 
