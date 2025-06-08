@@ -93,7 +93,7 @@ This project focuses on analysing **sales revenue trends** using a **simple regr
 
 ![Screenshot 2025-02-06 at 18 47 00](https://github.com/user-attachments/assets/d48d2765-0b4a-4dd0-acff-674df748b7eb)
 
-# [Project 3: Analysis of Coca-Cola's Strategy and HR Activities]([insert_link](https://github.com/JJB249/Marketing-Analytics-Projects))
+# [Project 3: Analysis of Coca-Cola's Strategy and HR Activities]([insert_link](https://github.com/JJB249/Coca-Cola-Strategic-and-HR-Analysis))
 
 #### **Project Overview**
 This project involved designing a **strategic and HR analytics dashboard** tailored for **Coca-Cola Company**, aiming to address key organisational challenges and support evidence-based decision-making. An interactive dashboard was construsted that synthesises data from Coca-Cola and key competitors, enabling real-time monitoring and predictive analysis of strategic, operational, and HR metrics. It was developed as part of a coursework assignment and offers practical business intelligence tools aligned with the company's competitive landscape.
