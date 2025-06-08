@@ -93,54 +93,57 @@ This project focuses on analysing **sales revenue trends** using a **simple regr
 
 ![Screenshot 2025-02-06 at 18 47 00](https://github.com/user-attachments/assets/d48d2765-0b4a-4dd0-acff-674df748b7eb)
 
-# [Project 3: Customer Segmentation and Targetting Strategy for JD.com]([insert_link](https://github.com/JJB249/Marketing-Analytics-Projects))
+# [Project 3: Analysis of Coca-Cola's Strategy and HR Activities]([insert_link](https://github.com/JJB249/Marketing-Analytics-Projects))
 
 #### **Project Overview**
-This project focuses on **segmenting** customers from Ivy League universities based on their responses to a survey. The objective is to identify distinct customer **clusters** using **cluster analysis in R** and to interpret the **characteristics** of each cluster to **inform targeted marketing strategies**.
+This project involved designing a **strategic and HR analytics dashboard** tailored for **Coca-Cola Company**, aiming to address key organisational challenges and support evidence-based decision-making. An interactive dashboard was construsted that synthesises data from Coca-Cola and key competitors, enabling real-time monitoring and predictive analysis of strategic, operational, and HR metrics. It was developed as part of a coursework assignment and offers practical business intelligence tools aligned with the company's competitive landscape.
 
 #### **Key Objectives**
-- Utilise k-means clustering to determine the **optimal number of customer segments**.
-- Analyse the **demographic and preference data** of each cluster.
-- Generate a cluster **dendrogram** to **visualise** the segmentation.
-- Interpret the mean values of key variables for each cluster to understand their **unique characteristics**.
+- Identify Coca-Cola's strategic and HR challenges using **internal and external data sources**.
+- Create an **interactive dashboard** to visualise performance metrics across multiple business functions.
+- **Benchmark** Coca-Cola’s metrics **against industry leaders** including PepsiCo, Nestle, and Keurig Dr Pepper.
+- Provide **predictive insights into market trends** (e.g. e-commerce, DEI, energy drinks) and **internal HR metrics** (e.g. employee turnover rate, training and development costs).
+- Develop **strategic recommendations** to enhance Coca-Cola’s **competitive and operational efficiency**.
 
 
 #### **Key Findings**
-- The optimal number of clusters identified is **3**, with cluster sizes of 220, 321, and 459 respectively.
-- Cluster 1 **(Loyal tech-savvy undergraduate students)** is characterised by younger, risk-averse customers who value product insurance and return policies.
-- Cluster 2 **(The busy everyday shoppers)** represents average customers with a strong preference for online shopping. 
-- Cluster 3 **(The independent, older customers)** consists of older, less loyal customers who are less concerned with product details.
-- The mean values of key variables such as age, income, and shopping preferences significantly differ across clusters, providing clear distinctions for targeted marketing.
+- Coca-Cola **outperforms** the industry average in **net profit margin** (21.2% vs. 10–12%), offering **greater reinvestment potential**.
+- The company **lags in capital expenditure and e-commerce investment** relative to competitors, indicating **infrastructure gaps**.
+- Despite strong DEI initiatives, Coca-Cola demonstrates **weaker transparency and representation** scores than Nestle and PepsiCo.
+- Coca-Cola is **underrepresented in the energy and sports drink market**, accounting for just 5% of sales, compared to 10–15% for competitors.
+- Predictive metrics such as Google Trends and CAGR data highlight **high-growth areas Coca-Cola must prioritise**: energy drinks, e-commerce, and advanced HR tech.
 
 #### **Project Workflow**
 1. **Data Collection & Preparation:**
-- **Gathered** survey data from 1000 customers at Ivy League universities.
-- **Cleaned** and scaled the dataset for cluster analysis.
+- **Gathered** data from market, company and competitor reports.
+- **Estimations** were made on information provided by market, company and competitor reports to be used as benchmarks for comparison to enhance the analsis.
 
-2. **Exploratory Data Analysis (EDA):**
-- Determined the optimal number of clusters using the **within-cluster sum of squares (WSS) method**.
-- Visualised the cluster separation using a dendrogram.
+2. **Data Visualisation:**
+- Constructed flashcards, line charts, bar graphs, and donut charts to track Coca-Cola’s performance across HR and strategic metrics.
+- Developed comparative visualisations using industry benchmarks derived from annual reports and financial data.
 
-3. **Cluster Analysis:**
-- Applied **k-means clustering** to segment customers into 3 clusters.
+3. **Metric Analysis and KPI Construction:**
+- Developed tailored formulas for key metrics including Employee Efficiency, Compa Ratio, Training Cost per Employee, and Turnover Rate.
+- Integrated Google Trends and CAGR data to assess future market movements in health-conscious consumer segments.
 
-- Analysed the **cluster centers** to understand the **mean values** of key variables.
+4. **Predictive Analytics:**
+- Designed visual components to track CapEx, DEI, advertising, and training metrics.
+- Built predictive capabilities using real-time proxies (e.g. Google search scores) and dummy data templates for future use.
 
-4. **Interpretation & Visualization:**
-- Interpreted the characteristics of each cluster based on **demographic and preference data**.
-- Generated a **CSV file** with the mean values of key variables for each cluster.
+5. **Strategic and HR Benchmarking:**
+- Benchmarked Coca-Cola’s performance against direct competitors in operational investment, gender equality, employee engagement, and e-commerce sales.
+- Developed monitoring systems for DEI progression and regional/departmental employee efficiency.
 
 #### **Technologies & Tools Used**
-- R (for cluster analysis and visualization)
-- ggplot2 (for cluster visualization)
-- RStudio (for script execution)
+- Python Plotly, pandas and Matplotlib (for constructing an **interactive dashboard**)
+- **Secondary research** using Statista, Google Trends, Mintel, and annual reports from Coca-Cola and competitors.
   
 #### **Outcome & Business Recommendations**
-- **Target Cluster 1** (Loyal tech-savvy undergraduate students) for marketing campaigns due to their high engagement and loyalty.
-- **Enhance online shopping features** to cater to Cluster 2 (The busy everyday shoppers) who heavily rely on digital platforms.
-- **Develop tailored marketing strategies** for Cluster 3 (The independent, older customers) to increase their engagement and loyalty.
-- **Leverage partnerships with companies** like Tiffany & Co. and Decathlon to attract and retain customers in Cluster 1.
-- **Monitor competitors** like Alibaba to maintain a competitive edge in targeting this segment.
+- **Prioritise CapEx and e-commerce expansion**: Coca-Cola should increase capital allocation toward digital platforms and distribution infrastructure to match Nestle’s 2025 sales goals (25% e-commerce).
+- **Optimise DEI strategy transparency**: Coca-Cola must enhance public reporting of DEI progress to improve stakeholder perception and competitive equity.
+- **Expand product presence in high-growth markets**: With only 5% of sales in energy and sports drinks, Coca-Cola should consider acquiring or developing performance-focused brands to rival PepsiCo’s Gatorade or KDP’s C4.
+- **Integrate advanced HR tech**: Tools such as VR training and AI-driven learning platforms can boost employee engagement while controlling training costs.
+- **Adopt predictive KPIs**: Metrics like Pre-Hire Quality Satisfaction and Google Trend Scores offer forward-looking insights and should guide HR and product development strategies.
 
 *You can view all of my projects at: https://github.com/JJB249?tab=repositories*
 
