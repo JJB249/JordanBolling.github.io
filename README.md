@@ -42,56 +42,53 @@ This project analyses the transportation problem faced by **Exeter Transport Com
 - Although minimising transportation costs is crucial, **sustainability, delivery timelines, and customer satisfaction** should also be **factored** into **decision-making**.
 - Given **fluctuating transportation costs**, **multiple methods** should be considered to **adapt to market changes**.
 
-# [Project 2: Local Music Store Sales Analysis and Forecasting]([insert_link](https://github.com/JJB249/Business-Analytics-Practices))
+# [Project 2: Analysis of Airbnb listings in Bristol (UK, 2024)]([insert_link](https://github.com/JJB249/Business-Analytics-Practices))
 
 #### **Project Overview**
-This project focuses on analysing **sales revenue trends** using a **simple regression model** and an **autoregressive model in R**. The objective is to determine how different **factors** influence sales revenue and to **forecast future sales** based on past **trends**.
+This project focuses on analysing **Airbnb listings in Bristol (UK, 2024)** using **interactive dashboards** created in **Python Plotly** and **Tableau**. The objective is to to understand how listing characteristics, host reliability, and seasonal trends influence customer booking behaviour and to provide actionable insights for both users and Airbnb’s strategic teams.
 
 #### **Key Objectives**
-- Utilise a linear regression model to analyse the relationship between **sales revenue** and **independent variables**.
-- Evaluate the **correlation** between store visits, social media shares, and average price per unit with sales revenue.
-- Apply an **autoregressive (AR) model** to forecast future sales revenue.
-- Interpret **key statistical measures** such as R-squared, standard error, and correlation coefficients.
+- Utilise a **Python Plotly dashboard** to examine the relationship between **listing price, property type, review scores, amenities, and availability**.
+- Deploy a **Tableau dashboard** to evaluate **host reliability through response times, verification, biography quality, and Superhost status**.
+- Identify **seasonal and geographic trends** in prices and reviews to highlight **demand fluctuations**.
+- Assess **consumer preferences** for **property types and host attributes** to recommend listing and marketing **strategies**.
 
 
 #### **Key Findings**
-- A **strong positive correlation** (0.92) exists between store visits and sales revenue.
-- The linear regression model produced an **R-squared value** of 0.85, indicating that 85% of the variance in sales revenue is explained by the model.
-- The **adjusted R-squared value** (0.83) further confirms the model's robustness.
-- The **standard error of the coefficient** for store visits is 0.208, indicating a reliable estimation.
-- The autoregressive model **predicts sales revenue** to be $19,173.81K in January 2021 and $19,277.65K in February 2021.
+- **Geographic price variation exists**: northeast Bristol is more affordable, while listings near parks and in the southwest are more expensive.
+- **Consumer preference** leans toward larger, more traditional rentals (cottages, cabins, homes) over apartments or hotel-like spaces.
+- **Seasonal trends** are evident, with demand and reviews peaking in holiday months and falling in January.
+- Most hosts are experienced and verified, but customer preference strongly favours quicker response times, creating a **performance gap between top-tier and weaker hosts**.
+- **Superhosts** consistently provide **better customer experiences**, as indicated by higher review ratings.
 
 
 #### **Project Workflow**
 1. **Data Collection & Preparation:**
-- **Gathered** monthly sales revenue and independent variable data.
-- **Cleaned** and structured the dataset for regression analysis.
+Airbnb listing data for Bristol was gathered and cleaned, including property, price, review, availability, and host information.
 
 2. **Exploratory Data Analysis (EDA):**
-- **Plotted** scatter plots to **visualise** the relationship between store visits and sales revenue.
-- Calculated correlation coefficients to measure **variable relationships**.
+Python Plotly dashboard visualisations (scatter maps, pie charts, heatmaps, line and bar charts) explored geographic, categorical, and temporal patterns.
 
 3. **Regression Analysis:**
-- Built a linear regression model **(Y = β0 + β1X1 + β2X2 + β3X3 + ε)**.
-- Analysed coefficient significance, standard error, and R-squared values.
+A Tableau dashboard assessed host-related metrics, such as biography length, verification status, and responsiveness, using histograms, scatter plots, and bar charts.
 
 4. **Autoregressive Model & Forecasting:**
-- Applied an AR(1) model to predict future sales revenue.
-- Generated sales forecasts for January & February 2021 using the **forecast package in R**.
+Visualisations were critically evaluated for their design, user-friendliness, and contribution to strategic decision-making. Insights were extracted to inform both guests and Airbnb’s operations and marketing teams.
 
 #### **Technologies & Tools Used**
-- R (for regression modeling and forecasting)
-- ggplot2 (for visualization)
-- forecast package (for time-series predictions)
-- RStudio (for script execution)
+- Python (Plotly for interactive dashboards)
+- Tableau (for host reliability dashboard)
+- Jupyter Notebook (for Python execution)
+- Airbnb dataset (filtered for Bristol 2024 listings)
 
 #### **Outcome & Business Recommendations**
-- Increase store visits through **marketing campaigns** as they have a strong positive impact on sales revenue.
-- Enhance **social media engagement** to increase awareness and drive customer traffic.
-- **Adjust pricing strategies** to balance affordability and profitability.
-- **Utilise sales forecasts** for better inventory and financial planning.
-
-![Screenshot 2025-02-06 at 18 47 00](https://github.com/user-attachments/assets/d48d2765-0b4a-4dd0-acff-674df748b7eb)
+- Adopt **dynamic pricing strategies** to exploit **seasonal demand fluctuations**.
+- **Encourage hosts** to **improve verification, responsiveness, and biography quality to strengthen reliability**.
+- **Highlight traditional and larger rentals** in **marketing campaigns**, particularly around **holiday seasons**.
+- **Promote Superhosts** and ensure **underperforming hosts** receive **targeted improvement strategies**.
+- **Leverage insights from dashboards** to create **city-specific platforms** for continuous **KPI monitoring and host engagement**.
+  
+<img width="1418" height="841" alt="Screenshot 2025-09-16 at 19 42 03" src="https://github.com/user-attachments/assets/d249462b-f059-4ddd-bedf-6f50640d4481" />
 
 # [Project 3: Analysis of Coca-Cola's Strategy and HR Activities]([insert_link](https://github.com/JJB249/Coca-Cola-Strategic-and-HR-Analysis))
 
