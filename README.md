@@ -10,7 +10,6 @@ This project analyses the transportation problem faced by **Exeter Transport Com
 - Develop a linear programming model to determine the **minimum transportation cost**.
 - **Compare and evaluate** the different methodologies to find the **most effective approach**.
 
-
 #### **Key Findings**
 - **Northwest Corner Method** resulted in a total transportation cost of **$61,000**.
 - **Least-Cost Method and Vogel’s Approximation Method** both achieved a cost of **$47,500**, significantly **improving efficiency** over the Northwest approach.
@@ -42,6 +41,7 @@ This project analyses the transportation problem faced by **Exeter Transport Com
 - Although minimising transportation costs is crucial, **sustainability, delivery timelines, and customer satisfaction** should also be **factored** into **decision-making**.
 - Given **fluctuating transportation costs**, **multiple methods** should be considered to **adapt to market changes**.
 
+
 # [Project 2: Analysis of Airbnb listings in Bristol (UK, 2024)]([insert_link](https://github.com/JJB249/Analysis-of-Airbnb-listing-in-Bristol-UK-2024-))
 
 #### **Project Overview**
@@ -53,14 +53,12 @@ This project focuses on analysing **Airbnb listings in Bristol (UK, 2024)** usin
 - Identify **seasonal and geographic trends** in prices and reviews to highlight **demand fluctuations**.
 - Assess **consumer preferences** for **property types and host attributes** to recommend listing and marketing **strategies**.
 
-
 #### **Key Findings**
 - **Geographic price variation exists**: northeast Bristol is more affordable, while listings near parks and in the southwest are more expensive.
 - **Consumer preference** leans toward larger, more traditional rentals (cottages, cabins, homes) over apartments or hotel-like spaces.
 - **Seasonal trends** are evident, with demand and reviews peaking in holiday months and falling in January.
 - Most hosts are experienced and verified, but customer preference strongly favours quicker response times, creating a **performance gap between top-tier and weaker hosts**.
 - **Superhosts** consistently provide **better customer experiences**, as indicated by higher review ratings.
-
 
 #### **Project Workflow**
 1. **Data Collection & Preparation:**
@@ -100,7 +98,6 @@ This project involved designing a **strategic and HR analytics dashboard** tailo
 - **Benchmark** Coca-Cola’s metrics **against industry leaders** including PepsiCo, Nestle, and Keurig Dr Pepper.
 - Provide **predictive insights into market trends** (e.g. e-commerce, DEI, energy drinks) and **internal HR metrics** (e.g. employee turnover rate, training and development costs).
 - Develop **strategic recommendations** to enhance Coca-Cola’s **competitive and operational efficiency**.
-
 
 #### **Key Findings**
 - Coca-Cola **outperforms** the industry average in **net profit margin** (21.2% vs. 10–12%), offering **greater reinvestment potential**.
