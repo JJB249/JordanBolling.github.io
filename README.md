@@ -88,7 +88,7 @@ Visualisations were critically evaluated for their design, user-friendliness, an
 - **Promote Superhosts** and ensure **underperforming hosts** receive **targeted improvement strategies**.
 - **Leverage insights from dashboards** to create **city-specific platforms** for continuous **KPI monitoring and host engagement**.
   
-<img width="1418" height="841" alt="Screenshot 2025-09-16 at 19 42 03" src="https://github.com/user-attachments/assets/d249462b-f059-4ddd-bedf-6f50640d4481" />
+<img width="1600" height="841" alt="Screenshot 2025-09-16 at 19 42 03" src="https://github.com/user-attachments/assets/d249462b-f059-4ddd-bedf-6f50640d4481" />
 
 # [Project 3: Analysis of Coca-Cola's Strategy and HR Activities]([insert_link](https://github.com/JJB249/Coca-Cola-Strategic-and-HR-Analysis))
 
