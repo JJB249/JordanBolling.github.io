@@ -42,7 +42,7 @@ This project analyses the transportation problem faced by **Exeter Transport Com
 - Although minimising transportation costs is crucial, **sustainability, delivery timelines, and customer satisfaction** should also be **factored** into **decision-making**.
 - Given **fluctuating transportation costs**, **multiple methods** should be considered to **adapt to market changes**.
 
-# [Project 2: Analysis of Airbnb listings in Bristol (UK, 2024)]([insert_link](https://github.com/JJB249/Business-Analytics-Practices))
+# [Project 2: Analysis of Airbnb listings in Bristol (UK, 2024)]([insert_link](https://github.com/JJB249/Analysis-of-Airbnb-listing-in-Bristol-UK-2024-))
 
 #### **Project Overview**
 This project focuses on analysing **Airbnb listings in Bristol (UK, 2024)** using **interactive dashboards** created in **Python Plotly** and **Tableau**. The objective is to to understand how listing characteristics, host reliability, and seasonal trends influence customer booking behaviour and to provide actionable insights for both users and Airbnb’s strategic teams.
